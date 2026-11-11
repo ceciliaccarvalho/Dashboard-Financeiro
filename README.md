@@ -99,7 +99,7 @@ Este repositório é público. **Não envie dados reais e sensíveis** do seu re
  
 ## 📄 Licença
  
-*Defina aqui a licença do projeto (por exemplo, MIT).*
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
  
 ## 👩‍💻 Autoria
  
