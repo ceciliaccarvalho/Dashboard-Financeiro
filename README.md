@@ -28,30 +28,25 @@ Com ele é possível acompanhar, de forma semanal:
  
 ## 🚀 Como usar
  
-1. **Baixe** os dois arquivos deste repositório (botão verde **Code → Download ZIP**).
-2. **Preencha** a planilha `modelo-base-de-dados.xlsx` com os dados do seu restaurante, respeitando as colunas do modelo.
-3. **Conecte os dados ao dashboard** conforme o formato de leitura configurado no arquivo HTML.
-4. **Abra** o `DashBoard-Lanchonete.html` no navegador (Chrome, Edge, Firefox ou Safari) e acompanhe os indicadores.
-> 💡 Se o dashboard abrir em branco, confira se os nomes das colunas e das abas da planilha continuam iguais aos do modelo e se as datas estão no formato correto.
- 
----
- 
-## 🗂️ Base de dados (planilha)
- 
-A planilha é a "fonte da verdade" do dashboard: tudo o que aparece nos gráficos e tabelas vem dela.
- 
-**Dica importante:** a planilha pode ser **personalizada com fórmulas**, para que você não precise atualizar tudo manualmente. Por exemplo, totais, categorias e cálculos de período podem ser feitos automaticamente a partir dos lançamentos.
- 
-Recomendações:
- 
-- Não renomeie abas e colunas usadas pelo dashboard;
+## Como usar
+
+1. **Baixe os arquivos** do repositório: `dashboard-mirante-forneria-local.html` e `modelo-dados-dashboard.xlsx`.
+2. **Preencha a planilha** com os seus números. As abas são `Config`, `A Receber`, `A Pagar`, `Despesas por Categoria` e `Evolução` (um dia por linha, de segunda a sexta). Os valores que já estão nela são só exemplos.
+3. **Abra o HTML** no navegador (duplo clique no arquivo).
+4. **Clique em "Carregar planilha"** e escolha o arquivo `.xlsx`. Os cartões, a tabela e os gráficos são atualizados automaticamente.
+5. **Para enviar à gestão**, use `Ctrl+P` (ou `Cmd+P` no Mac) e escolha "Salvar como PDF".
+
+### Dicas
+- Não renomeie as abas nem os cabeçalhos da linha 1, e não deixe linhas em branco no meio das tabelas.
+- Você pode usar fórmulas no Excel. Salve o arquivo antes de carregar e garanta que as células de valor devolvam números.
+- Não use senha na planilha, porque o dashboard não consegue abrir arquivos protegidos.
 - Mantenha um lançamento por linha;
 - Use sempre o mesmo padrão de datas e de categorias.
 ---
  
 ## 🔌 Integração com o ERP (opcional)
  
-Digitar dados todo dia dá trabalho. Por isso, existe a possibilidade de **"conectar" a planilha de base de dados com a base principal do restaurante (o ERP)**, para que as informações cheguem de forma automática ou semiautomática. Assim, o dashboard se mantém atualizado sem depender de lançamento manual.
+Digitar dados todo dia dá trabalho. Por isso, existe a possibilidade de **"conectar" a planilha de base de dados com a base principal da empresa (o ERP)**, para que as informações cheguem de forma automática ou semiautomática. Assim, o dashboard se mantém atualizado sem depender de lançamento manual.
  
 A ideia inicial do projeto, porém, era **desenvolver rapidamente uma solução visual** para a gestão acompanhar a saúde financeira. A integração é um passo seguinte, para quem quiser evoluir a ferramenta.
  
@@ -77,7 +72,7 @@ O projeto foi construído em etapas, combinando entendimento do negócio, design
  
 ## 🎨 Personalização
  
-Você pode adaptar o dashboard ao seu restaurante:
+Você pode adaptar o dashboard a sua empresa:
  
 - Nome do estabelecimento, cores e logotipo;
 - Categorias de receitas e despesas;
