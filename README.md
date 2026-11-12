@@ -1,4 +1,4 @@
-# 📊 Dashboard Financeiro para Restaurantes
+# 📊 Dashboard Financeiro
  
 Um painel visual, simples e fácil de entender para a gestão de restaurantes acompanharem a **saúde financeira da empresa ao longo da semana**, tanto por **competência** quanto por **fluxo de caixa**.
  
